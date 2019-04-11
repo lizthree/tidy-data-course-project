@@ -2,17 +2,17 @@
 library(dplyr)
 
 # file handling
-#file <- "uci-dataset.zip"
+file <- "uci-dataset.zip"
 
 # download
-#if (!file.exists(file)){
-#  url <- ""
-#  download.file(url, file, method = "curl")
-#}
+if (!file.exists(file)){
+  url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
+  download.file(url, file, method = "curl")
+}
 # unzip
-#if (!file.exists("UCI HAR Dataset")){
-#  unzip(file)
-#}
+if (!file.exists("UCI HAR Dataset")){
+  unzip(file)
+}
 
 ##          Requirement 2        ##
 ## Extracts only the measurements 
@@ -48,6 +48,9 @@ y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
 x <- rbind(features[features_filtered,2], x_test[,features_filtered], x_train[,features_filtered])
 colnames(x) = x[1, ] # the first row will be the header
 x = x[-1,]           # remove first row holding merged headers
+
+# clean headers: remove '()'
+names(x) <- gsub("[(][)]","", names(x))
 
 # combine y data and store in new column
 y <- rbind(y_test, y_train)
