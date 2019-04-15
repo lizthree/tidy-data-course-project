@@ -11,14 +11,14 @@ This code book provides the details about the data identifiers, measurements, an
 
 ## Measurements
 
-<b>Key:</b>
-<b>t</b> represents `time`.
-<b>f</b> represents `frequency`.
-<b>std</b> represents `standard deviation`.
-<b>Mag</b> represents `magnitude`.
-<b>Acc</b> represents `acceleration`.
+<b>Key:</b></br>
+<b>t</b> represents `time`.</br>
+<b>f</b> represents `frequency`.</br>
+<b>std</b> represents `standard deviation`.</br>
+<b>Mag</b> represents `magnitude`.</br>
+<b>Acc</b> represents `acceleration`.</br>
 
-<b>Columns:</b>
+<b>Columns:</b></br>
 * `tBodyAcc-mean-X`
 * `tBodyAcc-std-X`
 * `tGravityAcc-mean-X`
