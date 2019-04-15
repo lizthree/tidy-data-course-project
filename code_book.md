@@ -1,12 +1,13 @@
 # Code Book
 
-This code book summarizes the data fields and measurements in `tidy.txt`.
+## Contents of Code Book
+
+This code book provides the details about data fields and measurements in `tidy.txt`.
 
 ## Identifiers
 
 * `subject` - The ID of the test subject
-* `activity` - The ID of activity performed while measurements were taken
-* `activity_desc` - The type of activity performed while measurements were taken
+* `activity_label` - The type of activity performed while measurements were taken
 
 ## Measurements
 *`tBodyAcc-mean-X`
@@ -89,11 +90,15 @@ This code book summarizes the data fields and measurements in `tidy.txt`.
 *`fBodyBodyGyroMag-std`
 *`fBodyBodyGyroJerkMag-std`
 
-## Activity Labels
+## Activity Labels (activity_label)
 
-* `WALKING` (activity `1`): subject walking while measurements were taken
-* `WALKING_UPSTAIRS` (activity `2`): subject walking up a staircase while measurements were taken
-* `WALKING_DOWNSTAIRS` (activity `3`): subject walking down a staircase while measurements were taken
-* `SITTING` (activity `4`): subject sitting while measurements were taken
-* `STANDING` (activity `5`): subject standing while measurements were taken
-* `LAYING` (activity `6`): subject laying down while measurements were taken
+* `WALKING_UPSTAIRS`: subject walking up a staircase while measurements were taken
+* `WALKING_DOWNSTAIRS`: subject walking down a staircase while measurements were taken
+* `WALKING`: subject walking while measurements were taken
+* `SITTING`: subject sitting while measurements were taken
+* `STANDING`: subject standing while measurements were taken
+* `LAYING`: subject laying down while measurements were taken
+
+## Contents of tidy.txt
+
+180 rows of cleaned data of all 30 `subject`s with the mean of each measurement for every `activity_label`.
