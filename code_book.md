@@ -2,7 +2,7 @@
 
 ## Contents of Code Book
 
-This code book provides the details about data fields and measurements in `tidy.txt`.
+This code book provides the details about the data identifiers, measurements, and overall contents output into `tidy.txt`.
 
 ## Identifiers
 
@@ -10,6 +10,15 @@ This code book provides the details about data fields and measurements in `tidy.
 * `activity_label` - The type of activity performed while measurements were taken
 
 ## Measurements
+
+<b>Key:</b>
+<b>t</b> represents `time`.
+<b>f</b> represents `frequency`.
+<b>std</b> represents `standard deviation`.
+<b>Mag</b> represents `magnitude`.
+<b>Acc</b> represents `acceleration`.
+
+<b>Columns:</b>
 * `tBodyAcc-mean-X`
 * `tBodyAcc-std-X`
 * `tGravityAcc-mean-X`
