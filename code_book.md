@@ -10,85 +10,85 @@ This code book provides the details about data fields and measurements in `tidy.
 * `activity_label` - The type of activity performed while measurements were taken
 
 ## Measurements
-*`tBodyAcc-mean-X`
-*`tBodyAcc-std-X`
-*`tGravityAcc-mean-X`
-*`tGravityAcc-std-X`
-*`tBodyAccJerk-mean-X`
-*`tBodyAccJerk-std-X`
-*`tBodyGyro-mean-X`
-*`tBodyGyro-std-X`
-*`tBodyGyroJerk-mean-X`
-*`tBodyGyroJerk-std-X`
-*`tBodyAccMag-mean`
-*`tGravityAccMag-std`
-*`tBodyGyroMag-mean`
-*`tBodyGyroJerkMag-std`
-*`fBodyAcc-mean-Z`
-*`fBodyAcc-std-Z`
-*`fBodyAcc-meanFreq-Z`
-*`fBodyAccJerk-mean-Z`
-*`fBodyAccJerk-std-Z`
-*`fBodyAccJerk-meanFreq-Z`
-*`fBodyGyro-mean-Z`
-*`fBodyGyro-std-Z`
-*`fBodyGyro-meanFreq-Z`
-*`fBodyAccMag-meanFreq`
-*`fBodyBodyAccJerkMag-meanFreq`
-*`fBodyBodyGyroMag-meanFreq`
-*`fBodyBodyGyroJerkMag-meanFreq`
-*`tBodyAcc-mean-Y`
-*`tBodyAcc-std-Y`
-*`tGravityAcc-mean-Y`
-*`tGravityAcc-std-Y`
-*`tBodyAccJerk-mean-Y`
-*`tBodyAccJerk-std-Y`
-*`tBodyGyro-mean-Y`
-*`tBodyGyro-std-Y`
-*`tBodyGyroJerk-mean-Y`
-*`tBodyGyroJerk-std-Y`
-*`tBodyAccMag-std`
-*`tBodyAccJerkMag-mean`
-*`tBodyGyroMag-std`
-*`fBodyAcc-mean-X`
-*`fBodyAcc-std-X`
-*`fBodyAcc-meanFreq-X`
-*`fBodyAccJerk-mean-X`
-*`fBodyAccJerk-std-X`
-*`fBodyAccJerk-meanFreq-X`
-*`fBodyGyro-mean-X`
-*`fBodyGyro-std-X`
-*`fBodyGyro-meanFreq-X`
-*`fBodyAccMag-mean`
-*`fBodyBodyAccJerkMag-mean`
-*`fBodyBodyGyroMag-mean`
-*`fBodyBodyGyroJerkMag-mean`
-*`tBodyAcc-mean-Z`
-*`tBodyAcc-std-Z`
-*`tGravityAcc-mean-Z`
-*`tGravityAcc-std-Z`
-*`tBodyAccJerk-mean-Z`
-*`tBodyAccJerk-std-Z`
-*`tBodyGyro-mean-Z`
-*`tBodyGyro-std-Z`
-*`tBodyGyroJerk-mean-Z`
-*`tBodyGyroJerk-std-Z`
-*`tGravityAccMag-mean`
-*`tBodyAccJerkMag-std`
-*`tBodyGyroJerkMag-mean`
-*`fBodyAcc-mean-Y`
-*`fBodyAcc-std-Y`
-*`fBodyAcc-meanFreq-Y`
-*`fBodyAccJerk-mean-Y`
-*`fBodyAccJerk-std-Y`
-*`fBodyAccJerk-meanFreq-Y`
-*`fBodyGyro-mean-Y`
-*`fBodyGyro-std-Y`
-*`fBodyGyro-meanFreq-Y`
-*`fBodyAccMag-std`
-*`fBodyBodyAccJerkMag-std`
-*`fBodyBodyGyroMag-std`
-*`fBodyBodyGyroJerkMag-std`
+* `tBodyAcc-mean-X`
+* `tBodyAcc-std-X`
+* `tGravityAcc-mean-X`
+* `tGravityAcc-std-X`
+* `tBodyAccJerk-mean-X`
+* `tBodyAccJerk-std-X`
+* `tBodyGyro-mean-X`
+* `tBodyGyro-std-X`
+* `tBodyGyroJerk-mean-X`
+* `tBodyGyroJerk-std-X`
+* `tBodyAccMag-mean`
+* `tGravityAccMag-std`
+* `tBodyGyroMag-mean`
+* `tBodyGyroJerkMag-std`
+* `fBodyAcc-mean-Z`
+* `fBodyAcc-std-Z`
+* `fBodyAcc-meanFreq-Z`
+* `fBodyAccJerk-mean-Z`
+* `fBodyAccJerk-std-Z`
+* `fBodyAccJerk-meanFreq-Z`
+* `fBodyGyro-mean-Z`
+* `fBodyGyro-std-Z`
+* `fBodyGyro-meanFreq-Z`
+* `fBodyAccMag-meanFreq`
+* `fBodyBodyAccJerkMag-meanFreq`
+* `fBodyBodyGyroMag-meanFreq`
+* `fBodyBodyGyroJerkMag-meanFreq`
+* `tBodyAcc-mean-Y`
+* `tBodyAcc-std-Y`
+* `tGravityAcc-mean-Y`
+* `tGravityAcc-std-Y`
+* `tBodyAccJerk-mean-Y`
+* `tBodyAccJerk-std-Y`
+* `tBodyGyro-mean-Y`
+* `tBodyGyro-std-Y`
+* `tBodyGyroJerk-mean-Y`
+* `tBodyGyroJerk-std-Y`
+* `tBodyAccMag-std`
+* `tBodyAccJerkMag-mean`
+* `tBodyGyroMag-std`
+* `fBodyAcc-mean-X`
+* `fBodyAcc-std-X`
+* `fBodyAcc-meanFreq-X`
+* `fBodyAccJerk-mean-X`
+* `fBodyAccJerk-std-X`
+* `fBodyAccJerk-meanFreq-X`
+* `fBodyGyro-mean-X`
+* `fBodyGyro-std-X`
+* `fBodyGyro-meanFreq-X`
+* `fBodyAccMag-mean`
+* `fBodyBodyAccJerkMag-mean`
+* `fBodyBodyGyroMag-mean`
+* `fBodyBodyGyroJerkMag-mean`
+* `tBodyAcc-mean-Z`
+* `tBodyAcc-std-Z`
+* `tGravityAcc-mean-Z`
+* `tGravityAcc-std-Z`
+* `tBodyAccJerk-mean-Z`
+* `tBodyAccJerk-std-Z`
+* `tBodyGyro-mean-Z`
+* `tBodyGyro-std-Z`
+* `tBodyGyroJerk-mean-Z`
+* `tBodyGyroJerk-std-Z`
+* `tGravityAccMag-mean`
+* `tBodyAccJerkMag-std`
+* `tBodyGyroJerkMag-mean`
+* `fBodyAcc-mean-Y`
+* `fBodyAcc-std-Y`
+* `fBodyAcc-meanFreq-Y`
+* `fBodyAccJerk-mean-Y`
+* `fBodyAccJerk-std-Y`
+* `fBodyAccJerk-meanFreq-Y`
+* `fBodyGyro-mean-Y`
+* `fBodyGyro-std-Y`
+* `fBodyGyro-meanFreq-Y`
+* `fBodyAccMag-std`
+* `fBodyBodyAccJerkMag-std`
+* `fBodyBodyGyroMag-std`
+* `fBodyBodyGyroJerkMag-std` 
 
 ## Activity Labels (activity_label)
 
@@ -101,4 +101,4 @@ This code book provides the details about data fields and measurements in `tidy.
 
 ## Contents of tidy.txt
 
-180 rows of cleaned data of all 30 `subject`s with the mean of each measurement for every `activity_label`.
+180 rows of rolled up data summarizing all 30 subjects (`subject`) with the mean of each measurement for every activity (`activity_label`).
