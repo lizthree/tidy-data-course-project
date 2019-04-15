@@ -3,36 +3,41 @@ library(dplyr)
 library(reshape2)
 
 # file handling
-file <- "uci-dataset.zip"
+# create data folder and download
+if (!file.exists("./data")) {
+  dir.create("./data")
+}
+file <- file.path("./data", "uci-dataset.zip")
+data_dir <- file.path("./data" , "UCI HAR Dataset")
 
-# download
 if (!file.exists(file)){
   url <- "https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip"
   download.file(url, file, method = "curl")
 }
+
 # unzip
-if (!file.exists("UCI HAR Dataset")){
-  unzip(file)
+if (!file.exists(data_dir)){
+  unzip(file, exdir='./data')
 }
 
 # define tables for features and
-features <- read.table("UCI HAR Dataset/features.txt")
+features <- read.table("./data/UCI HAR Dataset/features.txt")
 features[,2] <- as.character(features[,2])
 # filter features by mean and std
 features_filtered <- grepl(".*mean.*|.*std.*",features[,2])
 
 # activity labels (class(features[,2]) "factor")
-activity_labels <- read.table("UCI HAR Dataset/activity_labels.txt")
+activity_labels <- read.table("./data/UCI HAR Dataset/activity_labels.txt")
 activity_labels[,2] <- as.character(activity_labels[,2])
 activity_labels[,1] <- as.character(activity_labels[,1])
 
 # define tables of test and training data
-subject_test <- read.table("UCI HAR Dataset/test/subject_test.txt")
-subject_train <- read.table("UCI HAR Dataset/train/subject_train.txt")
-x_test <- read.table("UCI HAR Dataset/test/X_test.txt")
-y_test <- read.table("UCI HAR Dataset/test/y_test.txt")
-x_train <- read.table("UCI HAR Dataset/train/X_train.txt")
-y_train <- read.table("UCI HAR Dataset/train/y_train.txt")
+subject_test <- read.table("./data/UCI HAR Dataset/test/subject_test.txt")
+subject_train <- read.table("./data/UCI HAR Dataset/train/subject_train.txt")
+x_test <- read.table("./data/UCI HAR Dataset/test/X_test.txt")
+y_test <- read.table("./data/UCI HAR Dataset/test/y_test.txt")
+x_train <- read.table("./data/UCI HAR Dataset/train/X_train.txt")
+y_train <- read.table("./data/UCI HAR Dataset/train/y_train.txt")
 
 # start merge by filtering data 
 # add column names to x data
