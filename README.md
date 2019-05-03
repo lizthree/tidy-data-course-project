@@ -1,5 +1,7 @@
 ### Getting and Cleaning Data Course Project
 
+link to repo: https://github.com/lizthree/tidy-data-course-project
+
 ## Purpose
 
 The purpose of this project is to demonstrate the ability to collect, work with, and clean a data set. The goal is to prepare tidy data that can be used for later analysis. <b> Details of this document has been taken from </b> <a href="https://www.coursera.org/specializations/jhu-data-science">Getting and Cleaning Data Course. </a>
