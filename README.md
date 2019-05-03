@@ -1,3 +1,5 @@
+link to repo: https://github.com/lizthree/tidy-data-course-project
+
 ### Getting and Cleaning Data Course Project
 
 ## Purpose
